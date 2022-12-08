@@ -8,6 +8,7 @@ public class LuckyNum {
 			x = num % 10;
 			num = num/10;
 			num = x + num;
+			// 
 		}
 		System.out.println(num);
 
