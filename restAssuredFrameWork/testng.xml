@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Apex Testing">
+	<test name="Sample Execution" preserve-order="true">
+		<classes>
+			<class name="com.apex.customer.test.CustomerTestNG2">
+				<methods>
+					<include name="testGetUserById" />
+					<include name="testPostUser" />
+				</methods>
+			</class>
+			<class name="com.apex.customer.test.CustomerTestNG" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
